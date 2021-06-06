@@ -5,10 +5,9 @@
 // for each function -
 //  .each in jquery
 
-var todaysDate = new Date();
+var todaysDate = moment().format("dddd MMMM Do YYYY, HHmm");
 // Convert the `todaysDate` to the "MMM Do YY" format using `moment()`
-var properFormat = "LLLL";
-var convertedDate = moment(todaysDate, properFormat).format("LLLL");
+var convertedDate = todaysDate;
 // Log `convertedDate` into the console
 console.log(convertedDate);
 
@@ -23,19 +22,29 @@ $(".saveBtn").on("click", function () {
   $(this).parents(".row").find(".display-event").text(event);
 });
 
-
-
-
 // display previously entered events at page load
 
 $(document).ready(function () {
-for (var i = 0; i < $(".row").length; i++){
- var time = $(".row").eq(i).data("time");
- alert(time);
+  $(".row").each(function () {
+    var time = $(this).data("time");
     var event = localStorage.getItem(time);
-    $(".row").eq(i).find(".display-event").text(event);
-    console.log(time);
-    console.log(event);
-}
+    $(this).find(".display-event").text(event);
+
+    var currentTime = moment().format("HH00");
+
+    if (time > currentTime) {
+      $(this).addClass("future");
+    } 
+    else if (time < currentTime) {
+      $(this).addClass("past");
+    }
+    else {
+        $(this).addClass("present");
+    }
   });
 
+  // for (var i = 0; i < $(".row").length; i++){
+  //  var time = $(".row").eq(i).data("time");
+  //      var event = localStorage.getItem(time);
+  //     $(".row").eq(i).find(".display-event").text(event);
+});

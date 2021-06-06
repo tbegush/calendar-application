@@ -76,3 +76,13 @@ textarea {
   justify-content: space-around;
   padding-bottom: 10px;
  }
+
+ .eventText {
+   border: 2px solid green !important;
+ }
+
+ .col{
+   display: flex;
+   align-items: center;
+  border-bottom: 2px solid rgb(251, 255, 0) !important;
+}
