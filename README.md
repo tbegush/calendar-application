@@ -154,7 +154,7 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 
 Thomas Begush - [@tbegush](https://twitter.com/tbegush) - tbegush@gmail.com - 
 
-Project Link: [https://github.com/tbegush/git-it-done](https://github.com/tbegush/calendar-application)
+Project Link: [https://github.com/tbegush/calendar-application](https://github.com/tbegush/calendar-application)
 
 Project demonstration: [Project Link: [https://tbegush.github.io/calendar-application](https://tbegush.github.io/calendar-application/)
 
@@ -163,11 +163,6 @@ Project demonstration: [Project Link: [https://tbegush.github.io/calendar-applic
 ## Acknowledgements
 
 * [https://github.com/othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* []()
-* []()
-
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
