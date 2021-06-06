@@ -38,7 +38,7 @@
     <img src="./workdaylogo.png" alt="Logo" width="auto" height=auto>
   </a>
 
-  <h3 align="center">workday scheduler</h3>
+  <h3 align="center">Workday Scheduler</h3>
 
   <p align="center">
     An app to help schedule your workday.
@@ -46,7 +46,7 @@
     <a href="https://github.com/tbegush/calendar-application"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/tbegush/calendar-application">View Demo</a>
+    <a href="https://tbegush.github.io/calendar-application/">View Demo</a>
     ·
     <a href="https://github.com/tbegush/calendar-application/issues">Report Bug</a>
     ·
@@ -86,20 +86,21 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+  * Workday Scheduler - Calendar Application
+![Workday Scheduler - Calendar Application ScreenShot](workdayscreenshot.png)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`tbegush`, `git-it-done`, `@tbegush`, `tbegush@gmail.com`, `calendar-application`, `An app to help plan your workday!`
+`tbegush`, `calendar-application`, `@tbegush`, `tbegush@gmail.com`, `calendar-application`, `An app to help plan your workday!`
 
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+* [HTML5]()
+* [JavaScript]()
+* [CSS]()
+* [JQuery]()
+* [Bootstrap]() 
 
 
 <!-- GETTING STARTED -->
@@ -165,7 +166,7 @@ Project demonstration: [Project Link: [https://tbegush.github.io/calendar-applic
 * [https://github.com/othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
+<!-- MARKDOWN LINKS & IMAGES DO NOT EDIT THIS PART-->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/tbegush/git-it-done.svg?style=for-the-badge
 [contributors-url]: https://github.com/tbegush/git-it-done/graphs/contributors
