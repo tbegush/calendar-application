@@ -157,7 +157,7 @@ Thomas Begush - [@tbegush](https://twitter.com/tbegush) - tbegush@gmail.com -
 
 Project Link: [https://github.com/tbegush/calendar-application](https://github.com/tbegush/calendar-application)
 
-Project demonstration: [Project Link: [https://tbegush.github.io/calendar-application](https://tbegush.github.io/calendar-application/)
+Project demonstration: [https://tbegush.github.io/calendar-application](https://tbegush.github.io/calendar-application/)
 
 
 <!-- ACKNOWLEDGEMENTS -->
