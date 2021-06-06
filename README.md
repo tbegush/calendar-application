@@ -35,7 +35,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/tbegush/calendar-application">
-    <img src="./assets/images/workdaylogo.png" alt="Logo" width="auto" height=auto>
+    <img src="./workdaylogo.png" alt="Logo" width="auto" height=auto>
   </a>
 
   <h3 align="center">workday scheduler</h3>
